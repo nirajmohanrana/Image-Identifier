@@ -18,7 +18,7 @@ const Content = () => {
   const [model, setModel] = useState(null);
   const [imageURL, setImageURL] = useState(null);
   const [results, setResults] = useState([]);
-  const [history, setHistory] = useState([]);
+  // const [history, setHistory] = useState([]);
 
   const imageRef = useRef();
   const textInputRef = useRef();
@@ -66,11 +66,11 @@ const Content = () => {
     loadModel();
   }, []);
 
-  useEffect(() => {
-    if (imageURL) {
-      setHistory([imageURL, ...history]);
-    }
-  }, [imageURL]);
+  // useEffect(() => {
+  //   if (imageURL) {
+  //     setHistory([imageURL, ...history]);
+  //   }
+  // }, [imageURL]);
 
   const constraints = {
     top: -5,

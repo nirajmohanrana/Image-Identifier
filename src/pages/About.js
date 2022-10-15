@@ -109,12 +109,14 @@ const About = () => {
                 <Card.Text className="">Doing some random stuffs</Card.Text>
                 <a
                   href="https://github.com/nirajmohanrana"
+                  target="blank"
                   className="text-decoration-none text-secondary fs-3 mx-2"
                 >
                   <BsGithub />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/niraj-rana-2a0384193/"
+                  target="blank"
                   className="text-decoration-none text-primary fs-3 mx-2"
                 >
                   <BsLinkedin />

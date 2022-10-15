@@ -144,6 +144,7 @@ const Content = () => {
               <>
                 <h4 className="text-white">Model is loading:</h4>
                 <motion.div
+                  className="mx-auto"
                   animate={{
                     scale: [1, 1.4, 0.8, 1.2, 0.4, 1, 1.1, 0],
                     borderRadius: [
